@@ -167,4 +167,11 @@ public class Vehicle {
 		return vehicleId+","+dealerId+","+year+","+brand+","+model+","+ isNew +","+price+","+exteriorColor
 				+","+interiorColor+","+bodyType+","+miles+","+featuresString+","+imgUrlsString;
 	}
+	
+	 @Override
+       public String toString() {
+            return model + ',' + price + ',' + miles + ',' + imgUrls;
+       }
+	
+	
 }
